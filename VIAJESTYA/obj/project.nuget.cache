@@ -1,12 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "tU4T/yX9/34=",
+  "dgSpecHash": "3NL3+RwnUMc=",
   "success": true,
   "projectFilePath": "C:\\Users\\galap\\OneDrive\\Documentos\\PROYECTOS\\VIAJESTYA\\VIAJESTYA\\VIAJESTYA.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\galap\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
-    "C:\\Users\\galap\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
-    "C:\\Users\\galap\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512"
+    "C:\\Users\\galap\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "C:\\Users\\galap\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\galap\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Npgsql' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
+      "projectPath": "C:\\Users\\galap\\OneDrive\\Documentos\\PROYECTOS\\VIAJESTYA\\VIAJESTYA\\VIAJESTYA.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\galap\\OneDrive\\Documentos\\PROYECTOS\\VIAJESTYA\\VIAJESTYA\\VIAJESTYA.csproj",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
