@@ -11,7 +11,7 @@ public class CalculadoraTarifaContext
         _strategy = strategy;
     }
 
-    // Permite cambiar la estrategia en tiempo de ejecución
+    
     public void SetStrategy(ICalculoTarifaStrategy strategy)
     {
         _strategy = strategy;

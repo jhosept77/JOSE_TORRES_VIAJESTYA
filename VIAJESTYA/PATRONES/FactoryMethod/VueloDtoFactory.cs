@@ -20,13 +20,13 @@ public class VueloDtoFactory : IDtoFactory
 
     private Vuelo CrearVueloNacional(CreateVueloDOT dto)
     {
-        // Reglas de vuelo nacional
+       
         return Vuelo.VueloDesdeOTD(dto, Random.Shared.Next(1000, 9999), 150000m);
     }
 
     private Vuelo CrearVueloInternacional(CreateVueloDOT dto)
     {
-        // Reglas de vuelo internacional
+      
         var vuelo = Vuelo.VueloDesdeOTD(dto, Random.Shared.Next(1000, 9999), 850000m);
         vuelo.Estado = "RequierePasaporte";
         return vuelo;
